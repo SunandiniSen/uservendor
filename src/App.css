@@ -1,7 +1,31 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.App-header {
+  background-color: #282c34;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+}
+
+.user-view, .vendor-view {
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0 5% 3%;
+}
+
+h3 {
+  text-align: left;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
